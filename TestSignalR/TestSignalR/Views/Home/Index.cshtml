@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Server Time";
+}
+@{
+    Layout = null; 
+}
+@Styles.Render("~/Content/css")
+
+
+<div class="common">Server time: <span id="time">Loading...  </span> </div>
+<div class="common">
+<label>Change time hours:
+    <input id="input-hours" type="number" step="1" /> </label> 
+<input type="button" id="btn-change" value="Change" />
+    </div>
+
+@Scripts.Render("~/bundles/jquery")
+
+<script src="~/Scripts/jquery.signalR-2.2.3.min.js"></script>
+<script src="~/signalr/hubs"></script>
+<script src="~/Scripts/main.js"></script>
+
+       

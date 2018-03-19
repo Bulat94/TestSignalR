@@ -1,0 +1,18 @@
+#btn-change
+{
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+
+#input-hours
+{
+    width: 150px;
+    border-radius: 5px;
+}
+
+.common 
+{
+   
+    font-size: 11pt;
+  padding-left: 110px;  
+}
